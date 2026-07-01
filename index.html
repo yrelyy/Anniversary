@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Anniversary, Mi Sol 💗</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- floating ambient hearts on every screen -->
+<div class="ambient-hearts" id="ambientHearts"></div>
+
+<!-- SCREEN 1 : INTRO -->
+<section id="screen-intro" class="screen active">
+  <div class="intro-card">
+    <div class="intro-heart">💗</div>
+    <h1>Our Little Adventure</h1>
+    <p class="subtitle">before the letter, one small flight together.</p>
+    <button class="btn btn-primary" id="startGameBtn">Tap to Begin ✨</button>
+  </div>
+</section>
+
+<!-- SCREEN 2 : GAME -->
+<section id="screen-game" class="screen">
+  <div class="game-header">
+    <span id="scoreLabel">Post 0 / 3</span>
+  </div>
+  <div class="canvas-wrap">
+      <canvas id="gameCanvas" width="420" height="620"></canvas>
+      <div id="gameOverBox" style="display:none;">
+
+      <h2>🥺 Oops!</h2>
+
+      <p>
+          Almost there, my love.
+          I know you can do it! ❤️
+      </p>
+
+      <button id="tryAgainBtn" class="btn btn-primary">
+          Try Again 💕
+      </button>
+
+  </div>
+    <div class="game-hint" id="gameHint">tap / click / press space to fly 🤍</div>
+  </div>
+</section>
+
+<!-- CONGRATS TOAST (overlays game screen) -->
+<div id="congratsToast" class="congrats-toast">
+  <div class="congrats-inner">
+    <div class="congrats-emoji">🎉💌</div>
+    <h2>Congratulations!</h2>
+    <p>you made it through all three years with me</p>
+  </div>
+</div>
+
+<!-- SCREEN 3 : LETTER -->
+<section id="screen-letter" class="screen">
+  <div class="letter-stage">
+    <div class="envelope" id="envelope">
+      <div class="envelope-flap"></div>
+      <div class="envelope-body"></div>
+      <div class="envelope-heart">💌</div>
+    </div>
+
+    <div class="letter-paper" id="letterPaper">
+      <p class="letter-date">June 2026</p>
+      <p class="letter-greeting">My love,</p>
+      <p class="letter-body" id="letterBody"></p>
+      <p class="letter-signoff">forever yours,<br><span id="letterFrom">Me</span></p>
+      <button class="btn btn-primary" id="toReasonsBtn">keep reading &rarr;</button>
+    </div>
+  </div>
+</section>
+
+<!-- SCREEN 4 : REASONS -->
+<section id="screen-reasons" class="screen">
+  <h2 class="section-title">Reasons I Love You</h2>
+  <p class="section-subtitle">tap each one, love</p>
+  <div class="reasons-grid" id="reasonsGrid"></div>
+  <button class="btn btn-primary" id="toFinaleBtn">one more thing… &rarr;</button>
+</section>
+
+<!-- SCREEN 5 : FINALE -->
+<section id="screen-finale" class="screen">
+  <div class="finale-confetti" id="finaleConfetti"></div>
+  <div class="finale-flowers" id="finaleFlowers"></div>
+  <div class="finale-content">
+    <div class="finale-heart">💖</div>
+    <h1 class="finale-title">3 Years<br>& Every Year After</h1>
+    <p class="finale-text" id="finaleText"></p>
+    <p class="finale-names" id="finaleNames"></p>
+    <button class="btn btn-ghost" id="replayBtn">play again 🔁</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
