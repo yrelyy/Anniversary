@@ -10,17 +10,27 @@ const PARTNER_NAME = "You";
 const ANNIVERSARY_DATE = "June 2026";
 
 const LETTER_TEXT =
-`Three years ago I didn't just gain a partner, I gained my favorite
-person to build a life with.
+`Three years ago, I didn't just gain a partner—I gained my favorite person, the one I want to build a life with.
 
-Every ordinary day with you turned into something worth remembering,
-and every hard day got softer because you were in it with me.
+Every ordinary day with you has turned into something worth remembering, and every hard day has become a little softer because you were by my side.
 
-This little game was silly on purpose, because loving you has never
-felt heavy. Thank you for three years of showing up, laughing loud,
-and choosing us again and again.
+The little game you played first was silly on purpose because loving you has never felt heavy. Thank you for three years of showing up, laughing with me, loving me, and choosing us over and over again.
 
-Here's to every year that's still ahead of us.`;
+We've had our fights, and I know there were times when I said I was tired. But I hope you know that I was only tired of the situations we were facing, never of us. Never of loving you.
+
+I will forever thank God for giving me someone as understanding as you. Not just some guy, but a man who always finds a reason to stay, who never gets tired of reassuring me, and who continues to love me despite my undeniably unreasonable mood swings. Thank you for your patience, your efforts, and for always choosing to understand me even when I'm difficult.
+
+Through every up and down, every pain and every happiness, I will always choose to love you. And if there is a second life after this one, I would still choose you all over again. I would still want to find my way back to you, hold your hand, and spend every lifetime loving you.
+
+I know I've been acting up these past few days, and honestly, I feel guilty about it. I'm sorry, my love. I'll make it all up to you, I promise.
+
+There is only one wish I always tell God whenever I pray for us—that we continue to walk through life hand in hand, never letting go of each other, and that our love stays strong for the rest of our lives.
+
+Thank you for being my safe place, my constant, my answered prayer, and the greatest blessing I never knew I needed.
+
+Happy Anniversary, my love. I love you so, so much—today, tomorrow, and every day after.
+
+I love you so much, my minamahal, my palagi. ❤️`;
 
 const REASONS = [
   { icon: "😊", title: "His Smile", caption: "it still gives me butterflies, every single time.", image: "smile.jpg" },
